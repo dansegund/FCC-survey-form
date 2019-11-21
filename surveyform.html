@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Survey Form Exercise</title>
+	<!-- <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> -->
+	<link rel="stylesheet" type="text/css" href="surveyform.css">
+</head>
+<body>
+	<div class="page">
+		<div class="container">
+			<div id="intro">
+				<h1 id="title">Dan's Survey Form</h1>
+				<p id="description">Thanks for taking the time to check out this example survey form. This exercise was a part of FreeCodeCamp's Responsive Web Design Certification.</p>	
+			</div>
+			<div class="form">
+				<form id="survey-form" action="">
+					<label id="name-label" for="name">Name</label>
+					<input id="name" type="text" name="name" placeholder="Enter your name" required=""><br><br>
+					<label id="email-label" for="email">Email</label>
+					<input id="email" type="email" name="email" placeholder="Enter your Email" required=""><br><br>
+					<label id="number-label" for="number">Age <span id="small">(optional)</span></label>
+					<input id="number" type="number" name="number" placeholder="Enter your age" min="1" max="100"><br><br>
+					
+					Which option best describes your current role?<br>
+					<select id="dropdown" required>
+						<option disabled selected value="">Select current role</option>
+						<option value="student">Student</option>
+						<option value="ftjob">Full Time Job</option>
+						<option value="ftlearner">Full Time Learner</option>
+						<option value="prefernot">Prefer not to say</option>
+						<option value="other">Other</option>
+					</select><br><br>
+					Would you recommend FreeCodeCamp to a friend?<br>
+					<input type="radio" name="first" value="definitely">Definitely<br>
+					<input type="radio" name="first" value="maybe">Maybe<br>
+					<input type="radio" name="first" value="note sure">Not sure<br><br>
+					What is your favorite feature of FreeCodeCamp?<br>
+					<select class="input" required>
+						<option disabled selected value="">Select an option</option>
+						<option value="challenges">Challenges</option>
+						<option value="projects">Projects</option>
+						<option value="community">Community</option>
+						<option value="opensource">Open Source</option>
+						<option value="other">Other</option>
+					</select><br><br>
+					What would you like to see improved? <span id="small">(Check all that apply)</span><br>
+					<input type="checkbox" name="" value="frontend">Front-end Projects<br>
+					<input type="checkbox" name="" value="backend">Back-end Projects<br>
+					<input type="checkbox" name="" value="datavis">Data Visualization Projects<br>
+					<input type="checkbox" name="" value="challenges">Challenges <br>
+					<input type="checkbox" name="" value="opensource">Open Source Community<br>
+					<input type="checkbox" name="" value="gitter">Gitter help rooms<br>
+					<input type="checkbox" name="" value="videos">Videos<br>
+					<input type="checkbox" name="" value="citymeetups">City meetups<br>
+					<input type="checkbox" name="" value="wiki">Wiki<br>
+					<input type="checkbox" name="" value="form">Forum<br>
+					<input type="checkbox" name="" value="additional">Additional Courses<br><br>
+					Any comments or suggestions?<br>
+					<textarea placeholder="Enter your comment here..."></textarea>
+					<input id="submit" type="submit" value="Submit"><br><br>
+
+				</form>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!-- Image URL: https://images.unsplash.com/photo-1545906785-193d7758ba91 -->
+</body>
+</html>

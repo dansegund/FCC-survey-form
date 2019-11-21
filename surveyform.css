@@ -1,0 +1,145 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat&display=swap);
+
+.page {
+	overflow: hidden;
+}
+
+.page:before {
+	content: " ";
+	/*display: block;*/
+	background: url(https://images.unsplash.com/photo-1545906785-193d7758ba91);
+	background-repeat: no-repeat;
+	/*background-position: 50% 0;*/
+	position: fixed;
+	background-size: cover;
+	background-position: center;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	opacity: 0.7;
+	/*display: flex;*/
+	/*background: rgba(0, 0, 0, 0.5);*/
+}
+
+.container {
+	color: whitesmoke;
+	margin: 3% 20%;
+	/*border: 1px solid green;*/
+	font-family: 'Montserrat', sans-serif;
+	padding: 15px
+	width: 80%;
+}
+
+#intro {
+	/*border: 1px solid red;*/
+	text-align: center;
+	width: 80%;
+	margin: auto;
+	font-size: 1.2rem;
+	color: lightslategray;
+}
+
+#survey-form {
+	background: rgba(25,25,112, 0.9);
+	padding: 40px 35px;
+	width: 75%;
+	margin: 5px auto 0 auto;
+	border-radius: 0.75%;
+	font-size: 1.2rem;
+}
+
+select
+{
+    color: gray;
+}
+option
+{
+    color: #000;
+    font-size: 1.1rem;
+}
+option:first-child
+{
+    color: gray;
+}
+
+select.input {
+	width: 100%;
+	margin-top: 5px;
+	height: 30px;
+	padding: 0 0.5rem;
+}
+
+.input {
+	border-radius: 5px;
+	border: 0px;
+	width: 97%;
+	margin-top: 5px;
+	height: 35px;
+	padding: 0 0.5rem;
+}
+
+#small {
+	font-size: 1rem;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+#submit {
+	border-radius: 5px;
+	border: 0px;
+	color: whitesmoke;
+	background: mediumseagreen;
+	margin: 5px 0;
+	width: 100%;
+	padding: 15px;
+	font-size: 1.1rem;
+}
+ 
+textarea {
+	width: 99%;
+	height: 150px;
+	margin: 10px 0;
+	font-size: 1.5rem;
+}
+
+#name {
+	border-radius: 5px;
+	border: 0px;
+	width: 97%;
+	margin-top: 5px;
+	height: 35px;
+	padding: 0 0.5rem;
+}
+
+#email {
+	border-radius: 5px;
+	border: 0px;
+	width: 97%;
+	margin-top: 5px;
+	height: 35px;
+	padding: 0 0.5rem;
+}
+
+#number {
+	border-radius: 5px;
+	border: 0px;
+	width: 97%;
+	margin-top: 5px;
+	height: 35px;
+	padding: 0 0.5rem;
+}
+
+#dropdown {
+	border-radius: 5px;
+	border: 0px;
+	width: 97%;
+	margin-top: 5px;
+	height: 35px;
+	padding: 0 0.5rem;
+}
